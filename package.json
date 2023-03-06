@@ -1,0 +1,22 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "to perform get post update delete operation",
+  "main": "server.js",
+  "scripts": {
+    "run":"node server.js",
+    "start": "nodemon server.js"
+
+    
+  },
+  "author": "srikanth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

@@ -1,0 +1,13 @@
+POST url HTTP/1.1
+
+http://localhost:8080/register
+header name: header value
+
+content
+    {
+    'fullName':'srikanth',
+    'email':'saindlasrikanth5@gmail.com',
+    'mobile':'8309616283',
+    'password':'12345678',
+    'conformPassword':'12345678'
+}
